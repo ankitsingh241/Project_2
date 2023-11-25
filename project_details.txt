@@ -1,0 +1,4 @@
+In this Project we will learn how to trigger Jenkins pipeline whenever you commit
+a change in github repository.
+
+Step 1 : 
