@@ -1,4 +1,11 @@
 In this Project we will learn how to trigger Jenkins pipeline whenever you commit
 a change in github repository.
 
-Step 1 : 
+Step 1 : Login to Jenkins add a pipeline job.
+         GitHub project --> Project url
+         configure --> Build Triggers --> GitHub hook trigger for GITScm polling.
+Step 2 : Go to git hub repository settings
+         Webhooks --> add webhook --> Payload URL: add PUBLIC URL of jenkins
+         [To change localhost into public use ngrok --> ngrok.exe http 8080]
+         link/github-webook/ --> add webhook
+Step 3 : Let commit some changes in your repo and you will see a pipeline will be trigger automatically.
