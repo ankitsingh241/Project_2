@@ -7,6 +7,6 @@ Step 1 : Login to Jenkins add a pipeline job.
 Step 2 : Go to git hub repository settings
          Webhooks --> add webhook --> Payload URL: add PUBLIC URL of jenkins
          [To change localhost into public use ngrok --> ngrok.exe http 8080]
-         link/github-webook/ --> add webhook
+         link/github-webhook/ --> add webhook
 Step 3 : Let commit some changes in your repo and you will see a pipeline will be trigger automatically.
 
